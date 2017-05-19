@@ -23,6 +23,7 @@
 
 <resources>
      <declare-styleable name="PointSeekBar">
+        <attr name="android:orientation" />
         <attr name="point_progress" format="integer" />
         <attr name="point_max" format="integer" />
         <attr name="point_small_radius" format="dimension" />

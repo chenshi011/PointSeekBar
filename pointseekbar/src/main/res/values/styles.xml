@@ -5,10 +5,10 @@
         <item name="point_small_radius">8dp</item>
         <item name="point_block_radius">32dp</item>
         <item name="point_progress_height">8dp</item>
-        <item name="point_progress_full_color">@android:color/black</item>
-        <item name="point_progress_empty_color">#808080</item>
-        <item name="point_border_line_color">@android:color/black</item>
-        <item name="point_border_fill_color">@android:color/white</item>
+        <item name="point_progress_full_color">?attr/colorPrimary</item>
+        <item name="point_progress_empty_color">#a1a1e7</item>
+        <item name="point_border_line_color">@android:color/white</item>
+        <item name="point_border_fill_color">?attr/colorPrimary</item>
         <item name="point_border_line_width">2dp</item>
     </style>
 </resources>

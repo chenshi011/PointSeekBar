@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"pointSeekBar on progress:" + progress,Toast.LENGTH_SHORT).show();
             }
         });
+
+        PointSeekBar seekBar2 = (PointSeekBar) findViewById(R.id.psb2);
+        seekBar2.setOnSeekBarChangedListener(new PointSeekBar.OnPointSeekBarChangedListener(){
+            @Override
+            public void onProgressChanged(PointSeekBar pointSeekBar, int progress) {
+                Toast.makeText(MainActivity.this,"pointSeekBar on progress:" + progress,Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
